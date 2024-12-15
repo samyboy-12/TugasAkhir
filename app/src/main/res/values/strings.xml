@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">TugasAkhir</string>
+    <string name="bookstore">Bookstore</string>
+    <string name="million_boo">Million Books are waiting for you. Let\'s explore the world together</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome_">Welcome!</string>
+    <string name="sign_up_to_">Sign up to start your journey with books</string>
+    <string name="your_email_">Your Email address</string>
+    <string name="enter_your_">Enter your password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="continue_wi">Continue with Facebook</string>
+    <string name="introduce">Introduce</string>
+    <string name="in_a_world_">In a world teeming with noise and voices, where every inch of existence is filled with sound, there exists a realm that speaks through its absence.
+
+Within this intricate tapestry of hushed moments and unspoken emotions lies a symphony of untold stories, waiting to be unraveled. "Silence" is a voyage into the spaces between words, a journey that navigates the depths of the unspoken, revealing that the most profound dialogues are often woven in the quiet between heartbeats.
+
+In this narrative, silence is not an absence, but a language, a canvas upon which emotions, fears, and desires are painted with delicate strokes. As the characters embark on their journey, the silence that envelopes them becomes a canvas of connection, understanding, and transformation—a canvas that dares to speak more eloquently than any spoken word.</string>
+    <string name="silence">Silence</string>
+    <string name="following">Following</string>
+    <string name="top_trendin">Top Trending Books</string>
+    <string name="for_you">For You</string>
+    <string name="recommended">recommended</string>
+
+
+    <string name="ava_morgan">Ava Morgan</string>
+    <string name="delve_into_">Delve into the depths of human emotions and connections through the...</string>
+    <string name="isabella_is"> Lorem Ipsum</string>
+    <string name="read">Read</string>
+    <string name="add_favorite">Add favorite</string>
+    <string name="home">home</string>
+    <string name="favorite">favorite</string>
+    <string name="register_welcome">Register</string>
+    <string name="register_subtitle">Sign up to start using our app</string>
+    <string name="your_email_register">Your Email</string>
+    <string name="enter_password_register">Enter Your Password</string>
+    <string name="confirm_password_register">Confirm Your Password</string>
+    <string name="register_button">Register</string>
+    <string name="login">Login</string>
+</resources>
+

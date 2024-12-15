@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:clipToOutline="true"
+    android:elevation="6dp">
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcome_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        android:text="@string/welcome_"
+        android:textSize="32sp"
+        android:textColor="#171A1F"
+        android:gravity="top"
+        android:lineSpacingExtra="13sp" />
+
+    <RelativeLayout
+        android:id="@+id/image_14"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignTop="@id/sign_up_to_"
+        android:layout_centerHorizontal="true"
+        android:clipToOutline="true"
+        android:background="@drawable/image_14" />
+    <!-- Subtitle Text -->
+    <TextView
+        android:id="@+id/sign_up_to_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/sign_up_to_"
+        android:textSize="16sp"
+        android:textColor="#565E6C"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="7sp" />
+
+    <!-- Email Input Box -->
+    <RelativeLayout
+        android:id="@+id/textbox_1"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="536dp"
+        android:background="@drawable/textbox_1">
+
+        <EditText
+            android:id="@+id/your_email_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_centerVertical="true"
+            android:hint="@string/your_email_"
+            android:textSize="16sp"
+            android:textColor="#BCC1CA" />
+    </RelativeLayout>
+
+    <!-- Password Input Box -->
+    <RelativeLayout
+        android:id="@+id/textbox_2"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/textbox_1">
+
+        <EditText
+            android:id="@+id/enter_your_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_centerVertical="true"
+            android:hint="@string/enter_your_"
+            android:textSize="16sp"
+            android:textColor="#BCC1CA" />
+    </RelativeLayout>
+
+    <!-- Sign Up Button -->
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="664dp"
+        android:background="@drawable/button_2"
+        android:clipToOutline="true"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sign_up_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_2"
+        android:layout_marginTop="10dp"
+        android:text="Belum punya akun? Daftar di sini"
+        android:textColor="#565E6C"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+</RelativeLayout>

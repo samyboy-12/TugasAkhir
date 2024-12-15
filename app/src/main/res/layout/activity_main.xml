@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Bookstore Title -->
+    <TextView
+        android:id="@+id/bookstore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="@string/bookstore"
+        android:textAppearance="@style/bookstore"
+        android:gravity="center" />
+
+    <!-- Subtitle: Million Books -->
+    <TextView
+        android:id="@+id/million_boo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bookstore"
+        android:layout_marginTop="16dp"
+        android:text="@string/million_boo"
+        android:textAppearance="@style/million_boo"
+        android:gravity="center" />
+
+    <!-- Central Image -->
+    <RelativeLayout
+        android:id="@+id/image_14"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/million_boo"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/image_14"
+        android:clipToOutline="true" />
+
+    <!-- Get Started Button -->
+    <RelativeLayout
+        android:id="@+id/button_1"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/button_1"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/get_started"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/get_started"
+            android:textAppearance="@style/get_started" />
+    </RelativeLayout>
+
+</RelativeLayout>

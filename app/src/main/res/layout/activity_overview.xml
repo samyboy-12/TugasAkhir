@@ -1,0 +1,92 @@
+<!-- Main Layout -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Container Top -->
+
+    <!-- Image -->
+
+    <View
+        android:id="@+id/overview_image"
+        android:layout_width="150dp"
+        android:layout_height="225dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/image_46"
+        android:elevation="1dp" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/overview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/silence"
+        android:textAppearance="@style/TitleStyle" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/overview_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/overview_title"
+        android:layout_marginTop="8dp"
+        android:text="@string/ava_morgan"
+        android:textAppearance="@style/ava_morgan" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/overview_author"
+        android:layout_margin="20dp"
+        android:text="@string/isabella_is"
+        android:textAppearance="@style/BodyTextStyle" />
+
+    <!-- Button -->
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Tombol Pertama -->
+        <Button
+            android:id="@+id/button_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/read"
+            android:background="#FF6200EE"
+            android:textColor="#FFFFFF" />
+
+        <!-- Tombol Kedua -->
+        <Button
+            android:id="@+id/button_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/add_favorite"
+            android:background="#FF03DAC5"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@color/nav_item_color"
+        app:itemTextColor="@color/nav_item_color"
+        android:background="?attr/colorPrimary" />
+
+</RelativeLayout>

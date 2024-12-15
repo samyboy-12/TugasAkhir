@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/introduce"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="267dp"
+        android:gravity="top"
+        android:lineSpacingExtra="12sp"
+        android:text="@string/introduce"
+        android:textAppearance="@style/introduce" />
+
+    <TextView
+        android:id="@+id/text_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="166dp"
+        android:text="@string/in_a_world_"
+        android:gravity="top"
+        android:lineSpacingExtra="4sp"
+        android:textAppearance="@style/in_a_world_" />
+
+    <RelativeLayout
+        android:id="@+id/icon_button"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:clipToOutline="true" />
+
+    <TextView
+        android:id="@+id/silence"
+        android:layout_width="63dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/silence"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="6sp"
+        android:textAppearance="@style/silence" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@color/nav_item_color"
+        app:itemTextColor="@color/nav_item_color"
+        android:background="?attr/colorPrimary" />
+
+</RelativeLayout>

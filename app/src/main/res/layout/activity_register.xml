@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToOutline="true"
+        android:elevation="6dp">
+
+        <!-- Welcome Text -->
+        <TextView
+            android:id="@+id/register_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="136dp"
+            android:text="@string/register_welcome"
+            android:textSize="32sp"
+            android:textColor="#171A1F"
+            android:gravity="top"
+            android:lineSpacingExtra="13sp" />
+
+        <RelativeLayout
+            android:id="@+id/register_image"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignBottom="@id/register_subtitle"
+            android:layout_centerHorizontal="true"
+            android:clipToOutline="true"
+            android:background="@drawable/image_14" />
+
+        <!-- Subtitle Text -->
+        <TextView
+            android:id="@+id/register_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/register_welcome"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/register_subtitle"
+            android:textSize="16sp"
+            android:textColor="#565E6C"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="7sp" />
+
+        <!-- Email Input Box -->
+        <RelativeLayout
+            android:id="@+id/textbox_email"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="536dp"
+            android:background="@drawable/textbox_1">
+
+            <EditText
+                android:id="@+id/your_email_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_centerVertical="true"
+                android:hint="@string/your_email_register"
+                android:textSize="16sp"
+                android:textColor="#BCC1CA" />
+        </RelativeLayout>
+
+        <!-- Password Input Box -->
+        <RelativeLayout
+            android:id="@+id/textbox_password"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@id/textbox_email"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textbox_1">
+
+            <EditText
+                android:id="@+id/enter_password_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_centerVertical="true"
+                android:hint="@string/enter_password_register"
+                android:textSize="16sp"
+                android:textColor="#BCC1CA" />
+        </RelativeLayout>
+
+        <!-- Confirm Password Input Box -->
+        <RelativeLayout
+            android:id="@+id/textbox_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@id/textbox_password"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textbox_1">
+
+            <EditText
+                android:id="@+id/confirm_password_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_centerVertical="true"
+                android:hint="@string/confirm_password_register"
+                android:textSize="16sp"
+                android:textColor="#BCC1CA" />
+        </RelativeLayout>
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@id/textbox_confirm_password"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_2"
+            android:text="Register"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/sign_in_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/button_register"
+            android:layout_marginTop="10dp"
+            android:text="Sudah punya akun? Masuk di sini"
+            android:textColor="#565E6C"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</ScrollView>
